@@ -5,6 +5,7 @@ import { TranslatorServiceBase } from '../../../../services/translator/translato
 import { SettingsBase } from '../../../../common/settings/settings.base';
 import { DesktopBase } from '../../../../common/io/desktop.base';
 import { AudioVisualizerServiceBase } from '../../../../services/audio-visualizer/audio-visualizer.service.base';
+import { LyricsServiceBase } from '../../../../services/lyrics/lyrics.service.base';
 
 describe('AppearanceSettingsComponent', () => {
     let appearanceServiceMock: IMock<AppearanceServiceBase>;
