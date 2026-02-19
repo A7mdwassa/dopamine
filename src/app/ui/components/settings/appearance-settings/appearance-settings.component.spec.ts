@@ -10,6 +10,7 @@ describe('AppearanceSettingsComponent', () => {
     let appearanceServiceMock: IMock<AppearanceServiceBase>;
     let translatorServiceMock: IMock<TranslatorServiceBase>;
     let audioVisualizerServiceMock: IMock<AudioVisualizerServiceBase>;
+    let lyricsServiceMock: IMock<LyricsServiceBase>;
     let settingsMock: IMock<SettingsBase>;
     let desktopMock: IMock<DesktopBase>;
 
@@ -19,6 +20,7 @@ describe('AppearanceSettingsComponent', () => {
         appearanceServiceMock = Mock.ofType<AppearanceServiceBase>();
         translatorServiceMock = Mock.ofType<TranslatorServiceBase>();
         audioVisualizerServiceMock = Mock.ofType<AudioVisualizerServiceBase>();
+        lyricsServiceMock = Mock.ofType<LyricsServiceBase>();
         settingsMock = Mock.ofType<SettingsBase>();
         desktopMock = Mock.ofType<DesktopBase>();
 
@@ -28,6 +30,7 @@ describe('AppearanceSettingsComponent', () => {
             appearanceServiceMock.object,
             translatorServiceMock.object,
             audioVisualizerServiceMock.object,
+            lyricsServiceMock.object,
             settingsMock.object,
             desktopMock.object,
         );
