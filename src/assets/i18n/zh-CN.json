@@ -332,5 +332,14 @@
     "highlights": "强调",
     "composer": "作曲家",
     "conductor": "指挥家",
-    "bpm": "拍子数"
+    "bpm": "拍子数",
+    "large-size": "L",
+    "normal-size": "N",
+    "rich-lyric-count": "Rich Lyric Count",
+    "rich-lyric-size": "Rich Lyric Size",
+    "rich-lyrics": "Rich Lyrics",
+    "show-rich-lyrics": "Show Rich Lyrics",
+    "small-size": "S",
+    "srt-lyrics": "SRT Lyrics",
+    "xl-size": "XL"
 }
