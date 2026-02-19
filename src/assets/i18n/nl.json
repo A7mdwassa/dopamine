@@ -332,5 +332,14 @@
     "highlights": "Hoogtepunten",
     "composer": "Componist",
     "conductor": "Dirigent",
-    "bpm": "BPM"
+    "bpm": "BPM",
+    "large-size": "L",
+    "normal-size": "N",
+    "rich-lyric-count": "Rich Lyric Count",
+    "rich-lyric-size": "Rich Lyric Size",
+    "rich-lyrics": "Rich Lyrics",
+    "show-rich-lyrics": "Show Rich Lyrics",
+    "small-size": "S",
+    "srt-lyrics": "SRT Lyrics",
+    "xl-size": "XL"
 }
