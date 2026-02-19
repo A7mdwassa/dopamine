@@ -32,7 +32,9 @@ describe('NowPlayingLyricsComponent', () => {
         playbackInformationServiceMock = Mock.ofType<PlaybackInformationService>();
         lyricsServiceMock = Mock.ofType<LyricsServiceBase>();
         settingsMock = Mock.ofType<SettingsBase>();
-
+        playbackServiceMock = Mock.ofType<PlaybackService>();
+        cdMock = Mock.ofType<ChangeDetectorRef>();
+        
         playbackInformationService_playingNextTrack_Mock = new Subject();
         playbackInformationService_playingPreviousTrack_Mock = new Subject();
         playbackInformationService_playingNoTrack_Mock = new Subject();
