@@ -33,6 +33,7 @@ describe('LyricsService', () => {
     beforeEach(() => {
         embeddedLyricsGetterMock = Mock.ofType<EmbeddedLyricsGetter>();
         lrcLyricsGetterMock = Mock.ofType<LrcLyricsGetter>();
+        srtLyricsGetterMock = Mock.ofType<SrtLyricsGetter>();
         onlineLyricsGetterMock = Mock.ofType<OnlineLyricsGetter>();
         settingsMock = Mock.ofType<SettingsBase>();
         loggerMock = Mock.ofType<Logger>();
