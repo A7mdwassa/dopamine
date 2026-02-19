@@ -338,6 +338,15 @@ describe('validate i18n', () => {
         'composer',
         'conductor',
         'bpm',
+        'large-size',
+        'normal-size',
+        'rich-lyric-count',
+        'rich-lyric-size',
+        'rich-lyrics',
+        'show-rich-lyrics',
+        'small-size',
+        'srt-lyrics',
+        'xl-size',
     ].sort();
 
     Constants.languages.forEach((language) => {
